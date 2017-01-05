@@ -6,7 +6,7 @@ var isNumber = function(n) {
 function getSum(total, num) {
     return total + num;
   }
-
+// remove characters that aren't numbers
 function removeNonNumbers(string) {
   var subString = string.split('');
   for (var i = 0; i < subString.length; i++) {
